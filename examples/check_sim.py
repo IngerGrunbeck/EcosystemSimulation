@@ -47,8 +47,7 @@ if __name__ == '__main__':
                           for _ in range(40)]}]
 
     sim = BioSim(island_map=geogr, ini_pop=ini_herbs,
-                 seed=123456, img_base=r'C:\Users\ingeg\Google Drive\Emner\INF200\BioSim'
-                                       r'\biosim_project\examples\film_test')
+                 seed=123456, img_base=r'\film_test')
 
     sim.set_animal_parameters('Herbivore', {'zeta': 3.2, 'xi': 1.8})
     sim.set_animal_parameters('Carnivore', {'a_half': 70, 'phi_age': 0.5,
