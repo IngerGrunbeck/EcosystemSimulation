@@ -1,0 +1,2 @@
+recursive-include biosim *.pyx
+recursive-include examples *.py
