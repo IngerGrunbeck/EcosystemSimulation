@@ -2,7 +2,7 @@
 BioSim
 ======
 
-This is a project that simulates the ecosystem of an island as part of the final student project in INF200 - _Object oriented programming for python (NMBU)_. The island has five different landscape
+This is a project that simulates the ecosystem of an island as part of the final student project in INF200 - _Object oriented programming for python (NMBU, 2019)_. The island has five different landscape
 types, mountain, ocean, desert, savannah, and jungle. The different landscape types have different feeding properties. While the mountain and oceans do not provide any food, the jungles has a high food max.
 
 The Island is populated by herbivores and carnivores. The herbivores eat the food provided on the island, while the carnivores exclusively eat herbivores. All instances of the animals grow, age, feed, migrate and breed. The rates of feeding, migrating, and breeding are determined by various variables. 
